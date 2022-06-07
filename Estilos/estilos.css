@@ -134,5 +134,32 @@ header{
      flex-direction: row;
  }
 
+ .transicion{
+     width: 100px;
+     height: 100px;
+     background-color: blueviolet;
+     border: solid 1px;
+ }
+
+ .transicion:hover{
+     padding: 20px;
+     transform: skewY(25deg);
+ }
+
+ .animacion{
+     animation-duration: 2s;
+     animation-name: aparecer;
+     animation-iteration-count: infinite;
+ }
+
+ @keyframes aparecer {
+     0%{
+         opacity: 0;
+     }
+     100%{
+         opacity: 1;
+     }
+
+ }
 
 

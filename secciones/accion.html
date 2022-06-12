@@ -4,74 +4,67 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Estilos/estilos.css">
     <title>Cinema</title>
 </head>
 <body>
-  
-    <header>
-
-        <nav>
-           <ul>
-               <li>
-                   <a href="../index.html">home</a>
-               </li>
-               <li>
-                 <a href="accion.html">acción</a>
-                </li>
-               <li>
-                   <a href="cienciaficcion.html">ciencia ficción</a>
-                 </li>
-               <li>
-                   <a href="drama.html">drama</a>
-                 </li>
-               <li>
-                   <a href="contacto.html">contacto</a>
-                 </li>
-             
- 
-           </ul>
- 
-        </nav>
- 
-     </header>
-
-     <div id="grilla">
-
-      <header class="border"><h3>Accion</h3>
-        Las peliculas de accion siempre han sido amadas por millones de personas alrededor de todo el mundo, en estas recomendaciones veras peliculas llenas de adrenalina, crimen, peligro y sobre todo mucha accion.
-        
-      </header>
-
-      <section id="productos" class="border  productosflex">
-        <h2>Die Hard</h2>
-        <article>
-          <img src="https://earlygame.com/uploads/images/_article/bruce-willis-retires.jpg" alt="">
-          <p>Un grupo terrorista se apodera del edificio Nakatomi Plaza y secuestra a un grupo de rehenes. El policía John McClane, que se encuentra dentro del rascacielos, consigue escapar, manteniendo a partir de ese momento una desigual y agotadora lucha contra los terroristas..</p>
-        </article>
-      </section>
-
-      
-
-      <nav class="border  menuFlex">
-        <h2>Director:</h2>
-        <h2>John McTiernan</h2>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" aria-current="page" href="../index.html">
+           <span class="text-primary fs-5 fw-bold">CINEMA</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="accion.html">Accion</a>
+              <a class="nav-link active" aria-current="page" href="cienciaficcion.html">Ciencia ficcion</a>
+              <a class="nav-link active" aria-current="page" href="drama.html">Drama</a>
+              <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
       </nav>
 
-      <aside class="border">Reparto:
-        <h2>Bruce Willis como John McClane</h2>
-        <h2>Alan Rickman como Hans Gruber</h2>
-        <h2>Alexander Godunov como Karl</h2>
-        <h2>Bonnie Bedelia como Holly Gennero-McClane</h2>
+      <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/WIGBBP6G5VFFLJQEALXLBXT34Q.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="https://media.gq.com.mx/photos/5d3606bad36a53000895171e/master/pass/killbill.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.nacion.com/resizer/JJ7aT5BQxpEniCvLT3tDwCeWzQU=/arc-anglerfish-arc2-prod-gruponacion/public/I4KE3T3APVAWRIOH3PB2552M74.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-      </aside>
-      
-     
-     <footer>
 
-      <h4> Disfruta de las mejores noticias y reseñas del cine </h4>
 
-     </footer>
 
+
+
+
+
+
+
+    <footer>
+
+      <h4>Disfruta de las mejores noticias y reseñas del cine</h4>
+
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

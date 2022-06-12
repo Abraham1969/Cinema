@@ -4,72 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Estilos/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Estilos/estilos.css">
     <title>Cinema</title>
 </head>
 <body>
 
-    <div class="grid-layout">
-
-        <div class="caja c1">
-             CINEMA
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" aria-current="page" href="index.html">
+           <span class="text-primary fs-5 fw-bold">CINEMA</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="./secciones/accion.html">Accion</a>
+              <a class="nav-link active" aria-current="page" href="./secciones/cienciaficcion.html">Ciencia ficcion</a>
+              <a class="nav-link active" aria-current="page" href="./secciones/drama.html">Drama</a>
+              <a class="nav-link active" aria-current="page" href="./secciones/contacto.html">Contacto</a>
+            </div>
+          </div>
         </div>
-
-        <div class="caja c2  Menuflex">
-
-            <header>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="index.html">home</a>
-                      </li>
-                    <li>
-                        <a href="./secciones/accion.html">acción</a>
-                      </li>
-                    <li>
-                        <a href="./secciones/cienciaficcion.html">ciencia ficción</a>
-                      </li>
-                    <li>
-                        <a href="./secciones/drama.html">drama</a>
-                      </li>
-                    <li>
-                        <a href="./secciones/contacto.html">contacto</a>
-                      </li>
-                  
-      
-                </ul>
-      
-             </nav>
-            </header>
-            
-        </div>
-
-        <div class="caja c3">
-            <h2> Noticias </h2>
-            <h3> Se confirma el elenco de la nueva pelicula de Cristopher Nolan.</h3>
-            <p>El elenco de la nueva pelicula de Christopher Nolan genero muchas expectativas ya que se confirmo que el protagonista será el gran Cillian Murphy el cual ha trabajado múltiples veces con el aclamado director britanico, también se han confirmado grandes nombre como: Robert Downey Jr, Florence Pugh, Emily Blunt, Rami Malek y hasta se confirmo el gran Matt Damon, la pelicula se confirma que estrenara en cines el 21 de julio del 2023</p>
+      </nav>
     
-             
+
+    <section class="container">
+        <h1 class="text-center mt-4">Novedades</h1>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/thor-love-and-thunder-poster-2-fotogramas-1653469014.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">THOR: LOVE AND THUNDER</h5>
+                <p class="card-text">La película encuentra a Thor (Chris Hemsworth) en un viaje diferente a todo lo que ha enfrentado: Una búsqueda de la paz interior. Pero su retiro es interrumpido por un asesino galáctico conocido como Gorr el carnicero de dioses (Christian Bale), que busca la extinción de los dioses. Para combatir la amenaza, Thor solicita la ayuda de la reina Valkiria (Tessa Thompson), Korg (Taika Waititi) y su ex novia Jane Foster (Natalie Portman), quien, para sorpresa de Thor, empuña inexplicablemente su martillo mágico, Mjolnir, como la Poderosa Thor. Juntos, se embarcan en una angustiosa aventura cósmica para descubrir el misterio de la venganza del Dios Carnicero y detenerlo antes de que sea demasiado tarde. Dirigida por Taika Waititi («Lo que hacemos en las sombras», «Jojo Rabbit») y producida por Kevin Feige y Brad Winderbaum.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/p_243_ster_lightyear_9209f1b3.jpg" class="card-img-top " alt="...">
+              <div class="card-body">
+                <h5 class="card-title">LIGTHYEAR</h5>
+                <p class="card-text">En Lightyear se presenta al legendario Guardián Espacial ante una desafiante aventura intergaláctica. Luego de un incidente en el que queda abandonado en un planeta hostil a 4.2 millones de años luz de la Tierra junto a su comandante y tripulación, Buzz intenta encontrar el camino de regreso a casa a través del espacio y el tiempo. A él se une un grupo de ambiciosos reclutas y su encantador gato robot, Sox. La misión se ve amenazada con la llegada de Zurg y su ejército de robots despiadados. Dirigido por Angus MacLane.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="https://i0.wp.com/cuatrobastardos.com/wp-content/uploads/2022/05/LM_ELVIS_Triptych_Series_70s_VERT_2764x4096.jpg?resize=2764%2C4096&ssl=1" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">ELVIS</h5>
+                <p class="card-text">Filme biográfico en torno a la vida y la música de Elvis Presley (Austin Butler), enfocadas de su compleja relación con su misterioso agente: el coronel Tom Parker (Tom Hanks). La película ahonda en la complicada dinámica entre Presley y Parker a lo largo de más de 20 años, desde el ascenso a la fama de Presley hasta su estrellato sin precedentes. Todo ello tras el telón de la evolución cultural y la madurez social en Estados Unidos. En el centro de ese viaje está una de las personas más importantes e influyentes en la vida de Elvis, Priscilla Presley (Olivia DeJonge).</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="./img/Primer-póster-oficial-de-Black-Adam.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">BLACK ADAM</h5>
+                <p class="card-text">Black Adam (Dwayne Johnson), uno de los supervillanos más peligrosos pertenecientes al Universo de DC Comics, ya que no hay ningún héroe que lo haya superado, ni siquiera el mismísimo Superman. Además, cuenta con una experiencia de miles de años, pues su origen se encuentra en el antiguo Egipto, alrededor del año 1200 a.C., donde fue sumo sacerdote. Tiene diversos poderes, como la inmortalidad o la fuerza y velocidad sobrehumanas.</p>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="caja c4">
-            <h2>Galardones</h2>
-            <h3>Ganadores Oscars 2022</h3>
-            <h3>Mejor pelicula: Coda</h3>
-            <h3>Mejor Actor: Will Smith (Rey Richard Una familia ganadora)</h3>
-            <h3>Mejor actriz: Jessica chastain (Los ojos de Tammy Faye)</h3>
-            <h3>Mejor pelicula de animación: Encanto</h3>
-            <h3>Mejor director: Jane Campion (El poder del perro)</h3>
-        </div>
 
-        
-        <div class="caja c5">
-            Disfruta de las mejores noticias y reseñas del cine
-       </div>
-    <footer>
-
-    </footer>
-        
     
+
+     
+    
+
+    
+
+
+
+
+<footer>
+
+    <h4>Disfruta de las mejores noticias y reseñas del cine</h4>
+
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

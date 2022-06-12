@@ -4,64 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../estilos/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../Estilos/estilos.css">
     <title>Cinema</title>
 </head>
 <body>
     
-    <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" aria-current="page" href="../index.html">
+           <span class="text-primary fs-5 fw-bold">CINEMA</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="accion.html">Accion</a>
+              <a class="nav-link active" aria-current="page" href="cienciaficcion.html">Ciencia ficcion</a>
+              <a class="nav-link active" aria-current="page" href="drama.html">Drama</a>
+              <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+            </div>
+          </div>
+        </div>
+      </nav>
 
-        <nav>
-           <ul>
-               <li>
-                   <a href="../index.html">home</a>
-                 </li>
-               <li>
-                   <a href="accion.html">acción</a>
-                 </li>
-               <li>
-                   <a href="cienciaficcion.html">ciencia ficción</a>
-                 </li>
-               <li>
-                   <a href="drama.html">drama</a>
-                 </li>
-               <li>
-                   <a href="contacto.html">contacto</a>
-                 </li>
-             
- 
-           </ul>
- 
-        </nav>
- 
-     </header>
+      <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Correo electronico</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
 
-     <form>
-      <label for="nombre_apellido">Ingrese Nombre y Apellido:</label>	
-      <input type="text" name="nombre_apellido" /> <br>
-      
-      <label for="mail">Ingrese mail:</label>	
-      <input type="text" name="mail" /> <br>
-
-      <label for="mensaje">Ingrese mensaje:</label>	
-      <input type="text" name="mensaje" /> <br>
-
-      <input type="submit" value="Enviar formulario"/>
-      <input type="reset" value="Limpiar formulario"/>
-      <input type="button" value="Sin acciones"/> <br>
-
-     </form>
+      <button type="button" class="btn btn-primary">Enviar</button>
 
 
-     
-      
 
 
-     <footer>
 
-      <h4> Disfruta de las mejores noticias y reseñas del cine </h4>
 
-     </footer>
+
+
+
+    <footer>
+
+      <h4>Disfruta de las mejores noticias y reseñas del cine</h4>
+
+    </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
 </body>
 </html>
